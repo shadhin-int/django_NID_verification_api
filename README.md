@@ -10,11 +10,15 @@ Install the requirements file
 N.B : Highly recommend to use virtual environment
 
 
-Run the Command
+To run code on your local machine:
 
-     1. Cd django_NID_verification_api/nid_server
-     2. python3 manage.py runserver
-     3. http://127.0.0.1:8000/nid/check/<nid_number>
+     
+
+     1.change directory into django_NID_verification_api/nid_server
+     2. run python manage.py migrate
+     3. run python manage.py runserver
+     4. python3 manage.py runserver
+     5. http://127.0.0.1:8000/nid/check/<nid_number>
 
 
 
